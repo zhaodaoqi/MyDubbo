@@ -1,23 +1,28 @@
-#git全局忽略列表
-#根据实际项目添加不需要加入版本库的过滤规则。
-#过滤规则：
-#/mtk/ 过滤整个文件夹
-#*.zip 过滤所有.zip文件
-#/mtk/do.c 过滤某个具体文件
-#gitignore还可以指定要将哪些文件添加到版本管理中：
+#git鍏ㄥ眬蹇界暐鍒楄〃
+#鏍规嵁瀹為檯椤圭洰娣诲姞涓嶉渶瑕佸姞鍏ョ増鏈簱鐨勮繃婊よ鍒欍��
+#杩囨护瑙勫垯锛�
+#/mtk/ 杩囨护鏁翠釜鏂囦欢澶�
+#*.zip 杩囨护鎵�鏈�.zip鏂囦欢
+#/mtk/do.c 杩囨护鏌愪釜鍏蜂綋鏂囦欢
+#gitignore杩樺彲浠ユ寚瀹氳灏嗗摢浜涙枃浠舵坊鍔犲埌鐗堟湰绠＄悊涓細
 #!*.zip
 #!/mtk/one.txt
 
-#eclipse环境配置文件
+#eclipse鐜閰嶇疆鏂囦欢
 .settings
 .project
 **/.classpath
-#idea环境配置文件
+#idea鐜閰嶇疆鏂囦欢
 **.iml
 .idea/
-#maven构建目录
+#maven鏋勫缓鐩綍
 **/target/
-#gradle构建目录
+#gradle鏋勫缓鐩綍
 .gradle/
 **/build/*
+
+
+
+
+
 
